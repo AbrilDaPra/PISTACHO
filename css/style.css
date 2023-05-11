@@ -615,4 +615,11 @@ header {
     .btn-each {
         margin: 10px;
     }
+    
+    #square {
+        width: 100%;
+    }
+    #iframeContainer {
+        width: 500px;
+    }
 }
