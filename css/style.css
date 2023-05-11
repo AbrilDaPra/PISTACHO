@@ -282,14 +282,12 @@ header {
 
 /* -- Pistacho In Action / Follow Us -- */
 .instagram {
-    text-decoration: none;
     color:#87f867;
     font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-
-}
+} 
 
 .white-text {
     color: white;
@@ -325,6 +323,10 @@ header {
     width: 200px;
     height: 200px;
     object-fit: cover;
+}
+
+.container iframe {
+    margin-bottom: 30px;
 }
 
 /* ---------------------------- Contact ---------------------------- */
