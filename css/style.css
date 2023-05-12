@@ -369,13 +369,29 @@ header {
 
 }
 
+.form-contact{
+    margin-left: 250px;
+}
+
 .form-label {
     color: #87f867;
+    margin: 10px 0px 10px 0px;
 }
 
 .form-control {
     width: 200px;
-    margin-left: 20px;
+    
+}
+
+.form-select {
+    width: 130px;
+    height: 30px;
+    margin: 15px 0px 15px 0px;
+}
+
+.form-check-input:checked {
+    background-color: #78f867;
+    border-color: #78f867;
 }
 
 #contactContainer {
@@ -395,6 +411,19 @@ header {
 
 .questions-contact {
     font-size: 16px;
+}
+
+.white-color {
+    color: white;
+}
+
+.contact-button {
+    background-color: #78f867;
+    color: black;
+    border-radius: 5px;
+    border-color: #78f867;
+    padding: 5px;
+    
 }
 
 #map {
@@ -423,6 +452,13 @@ header {
 
 .suscribe p {
     font-size: 20px;
+}
+
+.suscribe input {
+    border-radius: 5px;
+    border-color: white;
+    margin-bottom: 10px;
+    width: 150px;
 }
 
 .btn-submit {
@@ -613,9 +649,6 @@ header {
         display: flex;
         flex-direction: column;
     }
-    #contactForm {
-        margin: 15px;
-    }
     #contactContainer {
         display: flex;
         flex-direction: column;
@@ -636,12 +669,14 @@ header {
     .btn-each {
         margin: 10px;
     }
-    
     #square {
         width: 100%;
     }
     #map {
         display: flex;
         flex-direction: column;
+    }
+    .form-contact{
+        margin-left: 0;
     }
 }
