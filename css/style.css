@@ -368,7 +368,11 @@ header {
 .form-label {
     color: #87f867;
 }
-#contactContainer {
+
+.form-control {
+    width: 300px;
+}
+/* #contactContainer {
     display: grid;
     align-items: center;
     grid-template-columns: 1fr 1fr;
@@ -376,7 +380,7 @@ header {
     gap: 20px;
     max-width: 1000px;
     padding-bottom: 100px;
-}
+} */
 
 #contact-form h2 {
     display: flex;
@@ -387,6 +391,10 @@ header {
 #contactForm form input {
     padding: 6px;
     display: block;
+}
+
+.questions-contact {
+    font-size: 16px;
 }
 
 #map {
@@ -416,6 +424,16 @@ header {
 
 .suscribe p {
     font-size: 20px;
+}
+
+.btn-submit {
+    background-color: black;
+    color: #87f867;
+    border-color: black;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
 }
 
 /* ---------------------------- Sign In ---------------------------- */
