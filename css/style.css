@@ -52,7 +52,7 @@ body {
 #shoppingCartHeart {
     text-decoration: none;
     color: white;
-    
+
 }
 #signInUser {
     text-decoration: none;
@@ -115,9 +115,6 @@ header {
 
 .navbar-toggler {
     color: white;
-}
-
-.navbar-toggler {
     background-color: #87f867;
 }
 
