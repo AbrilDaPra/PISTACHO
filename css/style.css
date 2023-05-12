@@ -336,6 +336,10 @@ header {
     margin-bottom: 30px;
 }
 
+#iframeContainer{
+    width: auto;
+}
+
 /* ---------------------------- Contact ---------------------------- */
 #contactBanner {
     background-image: url(../images/contact-pic.jpg);
@@ -619,7 +623,5 @@ header {
     #square {
         width: 100%;
     }
-    #iframeContainer {
-        width: 500px;
-    }
+    
 }
