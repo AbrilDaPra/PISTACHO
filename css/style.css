@@ -377,6 +377,20 @@ header {
     width: 200px;
     margin-left: 20px;
 }
+
+.contact-container {
+    display: flex;
+}
+
+.contact-column {
+    flex: 1;
+    width: 50%
+}
+
+.contact-column form {
+    justify-content: center;
+}
+
 /* #contactContainer {
     display: grid;
     align-items: center;
@@ -405,7 +419,7 @@ header {
 #map {
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 50%;
     height: 300px;
 }
 
