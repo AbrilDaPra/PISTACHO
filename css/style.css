@@ -71,8 +71,13 @@ header {
     position: fixed;
     background-color: black;
     width: 100%;
+    z-index: 1;
 }
 
+.navbar {
+    position: relative;
+    z-index: 2;
+}
 .navbar-brand {
     color: white;
     font-size: 30px;
@@ -87,6 +92,7 @@ header {
     color: white;
     font-size: 24px;
     padding: 10px;
+     z-index: 9999;
 }
 
 .nav-link:hover {
