@@ -378,38 +378,19 @@ header {
     margin-left: 20px;
 }
 
-.contact-container {
-    display: flex;
-}
-
-.contact-column {
-    flex: 1;
-    width: 50%
-}
-
-.contact-column form {
-    justify-content: center;
-}
-
-/* #contactContainer {
+#contactContainer {
     display: grid;
     align-items: center;
     grid-template-columns: 1fr 1fr;
     margin: 0 auto;
     gap: 20px;
-    max-width: 1000px;
     padding-bottom: 100px;
-} */
+}
 
 #contact-form h2 {
     display: flex;
     justify-content: center;
     font-size: 50px;
-}
-
-#contactForm form input {
-    padding: 6px;
-    display: block;
 }
 
 .questions-contact {
@@ -419,7 +400,6 @@ header {
 #map {
     display: flex;
     justify-content: center;
-    width: 50%;
     height: 300px;
 }
 
@@ -660,5 +640,8 @@ header {
     #square {
         width: 100%;
     }
-    
+    #map {
+        display: flex;
+        flex-direction: column;
+    }
 }
