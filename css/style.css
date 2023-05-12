@@ -52,6 +52,7 @@ body {
 #shoppingCartHeart {
     text-decoration: none;
     color: white;
+    
 }
 #signInUser {
     text-decoration: none;
@@ -376,7 +377,8 @@ header {
 }
 
 .form-control {
-    width: 300px;
+    width: 200px;
+    margin-left: 20px;
 }
 /* #contactContainer {
     display: grid;
