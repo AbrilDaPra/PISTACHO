@@ -423,7 +423,6 @@ header {
     border-radius: 5px;
     border-color: #78f867;
     padding: 5px;
-    
 }
 
 #map {
@@ -678,5 +677,9 @@ header {
     }
     .form-contact{
         margin-left: 0;
+    }
+    .about-us p {
+        font-size: 18px;
+        margin: 10px;
     }
 }
