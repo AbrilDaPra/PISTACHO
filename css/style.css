@@ -17,6 +17,7 @@ body {
 .footer-menu ol {
     list-style-type: none;
     padding-top: 25px;
+    padding-left: 500px
 }
 
 .footer-menu li a {
