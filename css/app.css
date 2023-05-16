@@ -1,0 +1,584 @@
+@import url("https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&family=Raleway:wght@200&display=swap");
+header {
+  position: fixed;
+  background-color: #000;
+  width: 100%;
+  z-index: 1;
+}
+header .navbar {
+  position: relative;
+  z-index: 2;
+}
+header .navbar .navbar-brand {
+  color: #fff;
+  font-size: 30px;
+  padding-right: 50px;
+}
+header .navbar .navbar-brand:hover {
+  color: #fff;
+}
+header .navbar .navbar-toggler {
+  color: #fff;
+  background-color: #78f867;
+}
+header .navbar .nav-link {
+  color: white;
+  font-size: 24px;
+  padding: 10px;
+}
+header .navbar .nav-link:hover {
+  color: #78f867;
+}
+header .navbar .nav-link:focus {
+  color: #78f867;
+}
+header .navbar .dropdown-menu {
+  background-color: #000;
+  border-radius: 0%;
+}
+header .navbar .dropdown-menu .dropdown-item {
+  color: #fff;
+}
+header .navbar #shoppingCart {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  padding: 20px;
+}
+header .navbar #shoppingCartHeart {
+  text-decoration: none;
+  color: #fff;
+}
+header .navbar #signInUser {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Pathway Gothic One", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #000;
+}
+
+main .subtitles {
+  color: #78f867;
+  font-size: 30px;
+  padding: 20px;
+}
+main .white-text {
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-weight: bolder;
+  padding-left: 10px;
+}
+main .white-color {
+  color: #fff;
+}
+
+@media (max-width: 576px) {
+  .review-card {
+    margin-bottom: 20px;
+  }
+  .buy-container {
+    display: flex;
+    flex-direction: column;
+  }
+  #contactContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .each-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .each-container img {
+    height: 300px;
+    padding: 10px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .each h2, p, h3 {
+    padding-left: 10px;
+  }
+  .btn-each {
+    margin: 10px;
+  }
+  #square {
+    width: 100%;
+  }
+  #map {
+    display: flex;
+    flex-direction: column;
+  }
+  .form-contact {
+    margin-left: 0;
+  }
+  .about-us p {
+    font-size: 18px;
+    margin: 10px;
+  }
+}
+footer {
+  background-color: #000;
+}
+footer .footer-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+}
+footer .footer-container .footer-menu ol {
+  list-style-type: none;
+  padding-top: 25px;
+  padding-left: 500px;
+}
+footer .footer-container .footer-menu ol li a {
+  text-decoration: none;
+  color: #fff;
+}
+footer .footer-container .footer-contact {
+  padding-top: 25px;
+}
+footer .footer-container .footer-contact div {
+  display: flex;
+}
+footer .footer-container .footer-contact div #contactIcons {
+  color: #78f867;
+}
+footer .footer-container .footer-contact div p {
+  margin-left: 8px;
+  color: #fff;
+}
+
+main .about-us {
+  background-image: url(../images/aboutus-pic.jpg);
+  width: 100%;
+  height: 1000px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .about-us .square {
+  position: relative;
+  top: 45px;
+  left: 0;
+  width: 700px;
+  height: 700px;
+  background-color: rgba(135, 248, 103, 0.5);
+}
+main .about-us .square h2 {
+  display: flex;
+  font-size: 70px;
+  z-index: 1;
+  justify-content: center;
+  color: #000;
+  padding-bottom: 20px;
+}
+main .about-us .square p {
+  font-size: 23px;
+  max-width: 600px;
+  margin: 0 auto;
+  z-index: 1;
+  color: #000;
+  font-family: "Raleway", sans-serif;
+  font-weight: bolder;
+}
+
+main #cartList {
+  padding-top: 30px;
+  background-color: #000;
+}
+main #cartList .product-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+main #cartList .product-item img {
+  width: 100px;
+  margin-left: 20px;
+}
+main #cartList .product-item a {
+  text-decoration: none;
+}
+main #cartList .product-item a h3 {
+  font-size: 28px;
+  flex: 1;
+  padding: 0 10px;
+  color: #fff;
+}
+main #cartList .product-item h4 {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  color: #fff;
+}
+main #subtotal {
+  font-size: 20px;
+  color: white;
+}
+
+main #contactBanner {
+  background-image: url(../images/contact-pic.jpg);
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main #contactBanner button {
+  background-color: #78f867;
+  border: 0;
+}
+main #contactBanner button a {
+  font-size: 60px;
+  color: #000;
+  text-decoration: none;
+}
+main #contactContainer {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  gap: 20px;
+  padding-bottom: 100px;
+}
+main #contactContainer .form-contact {
+  margin-left: 250px;
+}
+main #contactContainer .form-contact .form-label {
+  color: #78f867;
+  margin: 10px 0px 10px 0px;
+}
+main #contactContainer .form-contact .form-label .form-control {
+  width: 200px;
+}
+main #contactContainer .form-contact .form-check-input:checked {
+  background-color: #78f867;
+  border-color: #78f867;
+}
+main #contactContainer .form-contact .form-select {
+  width: 130px;
+  height: 30px;
+  margin: 15px 0px 15px 0px;
+}
+main #contactContainer .form-contact .contact-button {
+  background-color: #78f867;
+  color: #000;
+  border-radius: 5px;
+  border-color: #78f867;
+  padding: 5px;
+}
+main #contactContainer #map {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+}
+main .suscribe {
+  background-color: #78f867;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .suscribe h2 {
+  font-size: 70px;
+  color: #000;
+}
+main .suscribe p {
+  font-size: 20px;
+}
+main .suscribe input {
+  border-radius: 5px;
+  border-color: #fff;
+  margin-bottom: 10px;
+  width: 150px;
+}
+main .suscribe .btn-submit {
+  background-color: #000;
+  color: #78f867;
+  border-color: #000;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 5px;
+  margin: 5px;
+}
+
+main .each-container {
+  width: 100%;
+  overflow: hidden;
+  background-color: #000;
+  padding-top: 150px;
+}
+main .each-container a {
+  text-decoration: none;
+}
+main .each-container img {
+  float: left;
+  width: 40%;
+  margin-right: 10px;
+}
+main .each-container .each {
+  color: #fff;
+}
+main .each-container .each h2 {
+  font-size: 40px;
+  margin-top: 0;
+}
+main .each-container .each p {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  margin: 0;
+}
+main .each-container .each h3 {
+  font-family: "Raleway", sans-serif;
+}
+main .each-container #goBackBtn {
+  display: flex;
+  justify-content: start;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+main .each-container .btn-each {
+  background-color: #78f867;
+  border-color: #78f867;
+  border-radius: 10%;
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px 0px;
+}
+main .each-container .btn-each a {
+  text-decoration: none;
+  color: #000;
+}
+main .each-container .btn-each:hover {
+  background-color: #78f867;
+  border: #fff;
+  color: #78f867;
+}
+
+main .buy-container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  gap: 20px;
+  max-width: 1000px;
+  padding-bottom: 100px;
+}
+main .buy-container .buy-img img {
+  width: 100%;
+  max-height: 100vh;
+  object-fit: cover;
+}
+main .buy-container .table {
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-weight: bolder;
+  padding-left: 10px;
+}
+main .buy-container .table .green-text {
+  color: #78f867;
+  text-transform: uppercase;
+}
+
+main #hero {
+  background-image: url("../images/banner.jpg");
+  width: 100%;
+  height: 1000px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main #hero h2 {
+  color: #000;
+  font-size: 90px;
+  text-transform: uppercase;
+  text-align: center;
+}
+main #hero .btn-index {
+  color: #fff;
+  background-color: #78f867;
+  border-radius: 5px;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 20px 0px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+main #hero .btn-index:hover {
+  background-color: #000;
+  color: #78f867;
+}
+main .card {
+  padding: 10px;
+  flex-basis: calc(25% - 40px);
+  margin: 20px;
+}
+main .card .card-img-top {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+main .btn {
+  background-color: #000;
+  border-color: #000;
+  color: #78f867;
+}
+main .btn:hover {
+  background-color: #78f867;
+  border: #78f867;
+  color: #000;
+}
+main #iframeContainer {
+  width: auto;
+  margin-bottom: 30px;
+}
+main #banner {
+  background-image: url(../images/banner2.jpg);
+  width: 100%;
+  height: 1000px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main #banner h2 {
+  color: #000;
+  font-size: 90px;
+  text-transform: uppercase;
+  text-align: center;
+}
+main #banner a {
+  color: #fff;
+  background-color: #78f867;
+  border-radius: 5px;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 20px 0px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+main .reviews {
+  text-align: center;
+}
+main .reviews .review-card {
+  width: 300px;
+  height: 400px;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+}
+main .reviews .review-card img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+main .reviews .review-card h4 {
+  margin: 20px 15px 10px 15px;
+  color: #78f867;
+  font-size: 20px;
+}
+main .reviews .review-card p {
+  font-size: 14 px;
+  color: #000;
+  font-family: "Raleway", sans-serif;
+  font-weight: bolder;
+}
+main .reviews .review-card .review-hearts {
+  margin-top: 10px;
+  color: #78f867;
+}
+main #instagramPhotos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 20px;
+  background-color: #78f867;
+}
+main #instagramPhotos #horizontal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+main #instagramPhotos #horizontal .ig-pics {
+  flex-basis: calc(16.66% - 20px);
+  margin: 10px;
+}
+main #instagramPhotos #horizontal .ig-pics img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+main .instagram {
+  color: #78f867;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main #bannerProducts {
+  background-image: url(../images/banner3.jpg);
+  width: 100%;
+  height: 1000px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main #bannerProducts h2 {
+  color: #78f867;
+  font-size: 90px;
+  text-transform: uppercase;
+  text-align: center;
+}
+main .card {
+  padding: 10px;
+  flex-basis: calc(25% - 40px);
+  margin: 20px;
+}
+
+main #inputContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+main #inputContainer h2 {
+  display: flex;
+  color: #78f867;
+  padding-top: 200px;
+  padding-bottom: 10px;
+  font-size: 50px;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=app.css.map */

@@ -1,0 +1,17 @@
+main{
+    #inputContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        h2 {
+            display: flex;
+            color: $primary-color;
+            padding-top: 200px ;
+            padding-bottom: 10px;
+            font-size: 50px;
+            justify-content: center;
+        }
+    }
+}

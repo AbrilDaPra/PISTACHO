@@ -1,0 +1,152 @@
+main{
+    #hero{
+        background-image: url('../images/banner.jpg');
+        width: 100%;
+        height: 1000px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h2{
+            color: $secondary-color;
+            font-size: 90px;
+            text-transform: uppercase;
+            text-align: center; 
+        }
+        .btn-index{
+            color: $tertiary-color;
+            background-color: $primary-color;
+            border-radius: 5px;
+            font-size: 20px;
+            text-transform: uppercase;
+            text-align: center;
+            margin: 20px 0px;
+            padding: 10px 20px;
+            text-decoration: none;
+            &:hover{
+                background-color: $secondary-color;
+                color: $primary-color;
+            }
+        }
+    }
+    .card{
+        padding: 10px;
+        flex-basis: calc(25% - 40px);
+        margin: 20px;
+        .card-img-top{
+            width: 100%;
+            aspect-ratio: 1/1;
+            object-fit: cover;
+        }
+    }
+    .btn{
+        background-color: $secondary-color;
+        border-color: $secondary-color;
+        color: $primary-color;
+        &:hover{
+            background-color: $primary-color;
+            border: $primary-color;
+            color: $secondary-color;
+        }
+    }
+    #iframeContainer{
+        width: auto;
+        margin-bottom: 30px;
+    }
+    #banner{
+        background-image: url(../images/banner2.jpg);
+        width: 100%;
+        height: 1000px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h2{
+            color: $secondary-color;
+            font-size: 90px;
+            text-transform: uppercase;
+            text-align: center;
+        }
+        a{
+            color: $tertiary-color;
+            background-color: $primary-color;
+            border-radius: 5px;
+            font-size: 20px;
+            text-transform: uppercase;
+            text-align: center;
+            margin: 20px 0px;
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+    }
+    .reviews{
+        text-align: center;
+        .review-card{
+            width: 300px;
+            height: 400px;
+            background-color: $tertiary-color;
+            padding: 40px;
+            border-radius: 8px;
+            img{
+                width: 80px;
+                height: 80px;
+                object-fit: cover;
+                border-radius: 50%;
+                margin: 0 auto;
+            }
+            h4{
+                margin: 20px 15px 10px 15px;
+                color: $primary-color;
+                font-size: 20px;
+            }
+            p{
+                font-size: 14 px;
+                color: $secondary-color;
+                font-family: 'Raleway', sans-serif;
+                font-weight: bolder;   
+            }
+            .review-hearts{
+                margin-top: 10px;
+                color: $primary-color;
+            }
+        }
+    }
+    #instagramPhotos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-top: 20px;
+        background-color: $primary-color;
+        #horizontal{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            flex-direction: row;
+            .ig-pics{
+                flex-basis: calc(16.66% - 20px);
+                margin: 10px;
+                img{
+                    width: 200px;
+                    height: 200px;
+                    object-fit: cover;
+                }
+            }
+            
+        }
+    }
+    .instagram {
+        color: $primary-color;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+    
+}

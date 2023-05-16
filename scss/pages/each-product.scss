@@ -1,0 +1,54 @@
+main{
+    .each-container{
+        width: 100%;
+        overflow: hidden;
+        background-color: $secondary-color;
+        padding-top: 150px;
+        a{
+            text-decoration: none;
+        }
+        img{
+            float: left;
+            width: 40%;
+            margin-right: 10px;
+        }
+        .each{
+            color: $tertiary-color;
+            h2{
+                font-size: 40px;
+                margin-top: 0;
+            }
+            p{
+                font-family: 'Raleway', sans-serif;
+                font-size: 18px;
+                margin: 0;   
+            }
+            h3{
+                font-family: 'Raleway', sans-serif;
+            }
+        }
+        #goBackBtn{
+            display: flex;
+            justify-content: start;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .btn-each{
+            background-color: $primary-color;
+            border-color: $primary-color;
+            border-radius: 10%;
+            font-size: 20px;
+            padding: 10px;
+            margin: 10px 0px;
+            a{
+                text-decoration: none;
+                color: $secondary-color;
+            }
+            &:hover{
+                background-color: $primary-color;
+                border: $tertiary-color;
+                color: $primary-color;
+            }
+        }
+    }
+}

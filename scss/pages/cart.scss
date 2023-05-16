@@ -1,0 +1,33 @@
+main{
+    #cartList{
+        padding-top: 30px;
+        background-color: $secondary-color;
+        .product-item{
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            img{
+                width: 100px;
+                margin-left: 20px;
+            }
+            a{
+                text-decoration: none;
+                h3{
+                    font-size: 28px;
+                    flex: 1;
+                    padding: 0 10px;
+                    color: $tertiary-color;
+                }
+            }
+            h4{
+                font-family: 'Raleway', sans-serif;
+                font-size: 18px;
+                color: $tertiary-color;
+            }
+        }  
+    }
+    #subtotal {
+        font-size: 20px;
+        color: white;
+    }
+}

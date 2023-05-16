@@ -1,0 +1,34 @@
+footer {
+    background-color: $secondary-color;
+    .footer-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0 auto;
+        .footer-menu {
+            ol {
+                list-style-type: none;
+                padding-top: 25px;
+                padding-left: 500px;
+                li {
+                    a {
+                        text-decoration: none;
+                        color: $tertiary-color;
+                    }
+                }
+            }
+        }
+        .footer-contact {
+            padding-top: 25px;
+            div {
+                display: flex;
+                #contactIcons {
+                    color: $primary-color;
+                }
+                p {
+                    margin-left: 8px;
+                    color: $tertiary-color;  
+                }
+            }
+        }
+    }
+}

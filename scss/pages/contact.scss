@@ -1,0 +1,95 @@
+main{
+    #contactBanner{
+        background-image: url(../images/contact-pic.jpg);
+        width: 100%;
+        height: 600px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        button{
+            background-color: $primary-color;
+            border: 0;
+            a{
+                font-size: 60px;
+                color: $secondary-color;
+                text-decoration: none;
+            }
+        }
+    }
+    #contactContainer{
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+        margin: 0 auto;
+        gap: 20px;
+        padding-bottom: 100px;
+        .form-contact{
+            margin-left: 250px;
+            .form-label{
+                color: $primary-color;
+                margin: 10px 0px 10px 0px;
+                .form-control{
+                    width: 200px;
+                }
+            }
+            .form-check-input{
+                &:checked{
+                    background-color: $primary-color;
+                    border-color: $primary-color;
+                }
+            }
+            .form-select{
+                width: 130px;
+                height: 30px;
+                margin: 15px 0px 15px 0px;
+            }
+            .contact-button{
+                background-color: $primary-color;
+                color: $secondary-color;
+                border-radius: 5px;
+                border-color: $primary-color;
+                padding: 5px;
+            }
+        }
+        #map{
+            display: flex;
+            justify-content: center;
+            height: 300px;
+        }
+    }
+    .suscribe {
+        background-color: $primary-color;
+        width: 100%;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h2{
+            font-size: 70px;
+            color: $secondary-color;
+        }
+        p{
+            font-size: 20px;
+        }
+        input{
+            border-radius: 5px;
+            border-color: $tertiary-color;
+            margin-bottom: 10px;
+            width: 150px;
+        }
+        .btn-submit {
+            background-color: $secondary-color;
+            color: $primary-color;
+            border-color: $secondary-color;
+            border-radius: 5px;
+            font-size: 20px;
+            padding: 5px;
+            margin: 5px;
+        }
+    }
+    
+}

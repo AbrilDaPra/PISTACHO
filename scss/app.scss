@@ -1,0 +1,19 @@
+// Basics
+@import './basics/colors.scss';
+@import './basics/typography.scss';
+
+//Layout
+@import './layout/header.scss';
+@import './layout/main.scss';
+@import './layout/footer.scss';
+
+//Pages
+@import './pages/about-us.scss';
+@import './pages/cart.scss';
+@import './pages/complete-purchase.scss';
+@import './pages/contact.scss';
+@import './pages/each-product.scss';
+@import './pages/how-to-buy.scss';
+@import './pages/index.scss';
+@import './pages/products.scss';
+@import './pages/sign-in.scss';

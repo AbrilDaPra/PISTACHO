@@ -1,0 +1,56 @@
+header {
+    position: fixed;
+    background-color: $secondary-color;
+    width: 100%;
+    z-index: 1;
+    .navbar {
+        position: relative;
+        z-index: 2;
+        .navbar-brand {
+            color: $tertiary-color;
+            font-size: 30px;
+            padding-right: 50px;
+            &:hover {
+                color: $tertiary-color;
+            }
+        }
+        .navbar-toggler {
+            color: $tertiary-color;
+            background-color: $primary-color;
+        }
+        .nav-link {
+            color: white;
+            font-size: 24px;
+            padding: 10px;
+            &:hover {
+                color: $primary-color;
+            }
+            &:focus{
+                color: $primary-color;
+            }
+        }
+        .dropdown-menu {
+            background-color: $secondary-color;
+            border-radius: 0%;
+            .dropdown-item {
+                color: $tertiary-color;
+            }
+            
+        }
+        #shoppingCart{
+            text-decoration: none;
+            color: $tertiary-color;
+            font-size: 18px;
+            padding: 20px;
+        }
+        #shoppingCartHeart{
+            text-decoration: none;
+            color: $tertiary-color;
+        }
+        #signInUser{
+            text-decoration: none;
+            color: $tertiary-color;
+            font-size: 20px;
+        }
+    }
+}
