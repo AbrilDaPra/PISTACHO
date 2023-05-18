@@ -580,5 +580,25 @@ main #inputContainer h2 {
   font-size: 50px;
   justify-content: center;
 }
+main #inputContainer .form-label {
+  color: #78f867;
+  font-size: 20px;
+}
+main #inputContainer .form-text {
+  color: #fff;
+}
+main #inputContainer .form-check-input:checked {
+  background-color: #78f867;
+  border-color: #78f867;
+}
+main #inputContainer .form-check-label {
+  color: #fff;
+}
+main #inputContainer .btn {
+  background-color: #78f867;
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+}
 
 /*# sourceMappingURL=app.css.map */
