@@ -1,0 +1,51 @@
+@media (max-width: 576px) {
+    .review-card {
+        margin-bottom: 20px;
+    }
+    .buy-container {
+        display: flex;
+        flex-direction: column;
+    }
+    #contactContainer {
+        display: flex;
+        flex-direction: column;
+    }
+    .each-container {
+        display: flex;
+        flex-direction: column;
+        img{
+            height: 300px;
+            width: 300px;
+            padding: 10px;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    .each h2, p, h3{
+        padding-left: 10px;
+    }
+    .btn-each {
+        margin: 10px;
+    }
+    .about-us{
+        #square {
+            width: 100%;
+            p{
+                font-size: 18px;
+                margin: 10px
+            }
+        }
+    }
+    
+    #map {
+        display: flex;
+        flex-direction: column;
+    }
+    .form-contact{
+        margin-left: 0;
+    }
+    .buy-container{
+        grid-template-columns: 1fr;
+    }
+    
+}
