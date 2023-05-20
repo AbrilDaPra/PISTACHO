@@ -1,4 +1,55 @@
 main{
+    .row{
+        h3{
+            padding: 100px 0px 15px 10px;
+            color: $primary-color;
+            font-size: 30px;
+            border-bottom: 1px solid $primary-color;
+        }
+        .col{
+            color: $tertiary-color;
+            font-size: 18px;
+            padding: 15px 0px 0px 10px;
+            a{
+                text-decoration: none;
+                color: $tertiary-color;
+                img{
+                    width: 200px;
+                    height: 200px;
+                    margin-right: 10px;
+                    object-fit: cover;
+                }
+                h4{
+                    display: flex;
+                    justify-content: start;
+                    padding-left: 55px;
+                }
+            }
+            .quantity-products{
+                display: flex;
+                justify-content: center;
+                input{
+                    width: 40px;
+                }
+            }
+            .shipping{
+                .form-select{
+                    width: 200px;
+                }
+            }      
+        }
+        .order-summary{
+            .btn-checkout{
+                background-color: $primary-color;
+                border-color: $primary-color;
+                border-radius: 3px;
+                padding: 3px;
+            }
+        }
+        
+    }
+    
+    
     #cartList{
         padding-top: 30px;
         background-color: $secondary-color;

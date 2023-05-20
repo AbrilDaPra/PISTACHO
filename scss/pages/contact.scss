@@ -27,13 +27,16 @@ main{
         gap: 20px;
         padding-bottom: 100px;
         .form-contact{
-            margin-left: 250px;
+            padding-left: 400px;
             .form-label{
                 color: $primary-color;
                 margin: 10px 0px 10px 0px;
                 .form-control{
                     width: 200px;
                 }
+            }
+            .form-control{
+                width: 300px;
             }
             .form-check-input{
                 &:checked{
@@ -68,7 +71,7 @@ main{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        h2{
+        h3{
             font-size: 70px;
             color: $secondary-color;
         }

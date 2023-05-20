@@ -66,27 +66,91 @@
           </nav>
       </header>
       <main>
-        <section>
-          <h3 class="subtitles">SHOPPING CART</h3>
-          <section id="cartList">
-            <div class="product-item">
-              <img src="../images/bag-ginebra-violet.PNG" alt="ginebraviolet">
-              <a href="../each-product/ginebra-violet.html"><h4>GINEBRA violet</h4></a>
-              <p>$7930</p>
-              <button>Delete</button>
-            </div>
-            <div class="product-item">
-              <img src="../images/bag-catalina-red.PNG" alt="catalinared">
-              <a href="../each-product/catalina-red.html"><h4>CATALINA red</h4></a>
-              <p>$10600</p>
-              <button>Delete</button>
-            </div>
-          </section>
-          <div id="subtotal">
-            <span>SUBTOTAL: $18530</span>
-            <a href="./complete-purchase.html"><button>PAY</button></a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-md-6 col-sm-12">
+              <div class="container text-center">
+                <h3>SHOPPING CART</h3>
+                <div class="row">
+                  <div class="col">
+                    Product details
+                  </div>
+                  <div class="col">
+                    Quantity
+                  </div>
+                  <div class="col">
+                    Price
+                  </div>
+                  <div class="col">
+                    Total
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <a href="../pages/each-product/ginebra-violet.html">
+                      <img src="../images/bag-ginebra-violet.PNG" alt="ginebraviolet">
+                      <h4>GINEBRA violet</h4>
+                    </a>
+                  </div>
+                  <div class="col">
+                    <div class="quantity-products">
+                      <input type="number" name="contador" id="contador" placeholder="1">
+                    </div>
+                  </div>
+                  <div class="col">
+                    $7930
+                  </div>
+                  <div class="col">
+                    $7930
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <a href="../each-product/catalina-red.html">
+                      <img src="../images/bag-catalina-red.PNG" alt="catalinared">
+                      <h4>CATALINA red</h4>
+                    </a>
+                  </div>
+                  <div class="col">
+                    <div class="quantity-products">
+                      <input type="number" name="contador" id="contador" placeholder="1">
+                    </div>
+                  </div>
+                  <div class="col">
+                    $10600
+                  </div>
+                  <div class="col">
+                    $10600
+                  </div>
+                </div>
+              </div>
+            </div>      
+            <div class="col-md-6 col-sm-12">
+              <div class="container text-center">
+                <h3>Order Summary</h3>
+                <div class="row">
+                  <div class="col order-summary">
+                    <p>ITEMS 3</p>
+                    <div class="shipping">
+                      <p>SHIPPING</p>
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected disabled>Select</option>
+                        <option value="1">At home</option>
+                        <option value="2">Correo Argentino</option>
+                      </select>
+                    </div>
+                    <p>PROMO CODE</p>
+                    <input type="text" name="promo code" id="promoCode" placeholder="Your code">
+                    <button class="btn">APPLY</button>
+                    <p>TOTAL COST: $18530</p>
+                    <a href="./complete-purchase.html"><button class="btn-checkout">CHECKOUT</button></a>
+                  </div>
+                </div>
+              </div>
+            </div>           
           </div>
-        </section>
+        </div>
+        <button class="btn">Continue shopping</button>
       </main>
       <footer>
         <section class="footer-container">

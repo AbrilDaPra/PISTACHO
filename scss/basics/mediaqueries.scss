@@ -1,19 +1,26 @@
-@media (max-width: 576px) {
+@media (max-width: 576px){
     .row{
         padding-left: 25px;
     }
-    .review-card {
+    .review-card{
         margin-bottom: 20px;
     }
-    .buy-container {
+    #iframeContainer{
+        width: auto;
+        margin-bottom: 30px;
+    }
+    .buy-container{
         display: flex;
         flex-direction: column;
     }
-    #contactContainer {
-        display: flex;
-        flex-direction: column;
+    #contactContainer{
+        grid-template-columns: 1fr !important;
+        .form-contact{
+            padding: 10px;
+            padding: 10px 20px 10px 35px !important;
+        }
     }
-    .each-container {
+    .each-container{
         display: flex;
         flex-direction: column;
         img{
@@ -27,7 +34,7 @@
     .each h2, p, h3{
         padding-left: 10px;
     }
-    .btn-each {
+    .btn-each{
         margin: 10px;
     }
     .about-us{
@@ -39,13 +46,6 @@
                 margin: 10px;
             }
         }
-    }
-    #map{
-        display: flex;
-        flex-direction: column;
-    }
-    .form-contact{
-        margin-left: 0;
     }
     
     

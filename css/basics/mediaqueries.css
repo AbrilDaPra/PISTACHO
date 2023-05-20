@@ -5,13 +5,20 @@
   .review-card {
     margin-bottom: 20px;
   }
+  #iframeContainer {
+    width: auto;
+    margin-bottom: 30px;
+  }
   .buy-container {
     display: flex;
     flex-direction: column;
   }
   #contactContainer {
-    display: flex;
-    flex-direction: column;
+    grid-template-columns: 1fr !important;
+  }
+  #contactContainer .form-contact {
+    padding: 10px;
+    padding: 10px 20px 10px 35px !important;
   }
   .each-container {
     display: flex;
@@ -37,13 +44,6 @@
   .about-us .square p {
     font-size: 18px !important;
     margin: 10px;
-  }
-  #map {
-    display: flex;
-    flex-direction: column;
-  }
-  .form-contact {
-    margin-left: 0;
   }
 }
 
