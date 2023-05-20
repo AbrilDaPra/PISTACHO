@@ -37,20 +37,15 @@ header {
             }
             
         }
-        #shoppingCart{
-            text-decoration: none;
-            color: $tertiary-color;
-            font-size: 18px;
+        #cartHeart{
+            width: 80px;
             padding: 20px;
-        }
-        #shoppingCartHeart{
-            text-decoration: none;
-            color: $tertiary-color;
         }
         #signInUser{
             text-decoration: none;
             color: $tertiary-color;
-            font-size: 20px;
+            font-size: 25px;
+            margin-top: 5px;
         }
     }
 }

@@ -87,20 +87,15 @@ header .navbar .dropdown-menu {
 header .navbar .dropdown-menu .dropdown-item {
   color: #fff;
 }
-header .navbar #shoppingCart {
-  text-decoration: none;
-  color: #fff;
-  font-size: 18px;
+header .navbar #cartHeart {
+  width: 80px;
   padding: 20px;
-}
-header .navbar #shoppingCartHeart {
-  text-decoration: none;
-  color: #fff;
 }
 header .navbar #signInUser {
   text-decoration: none;
   color: #fff;
-  font-size: 20px;
+  font-size: 25px;
+  margin-top: 5px;
 }
 
 * {
