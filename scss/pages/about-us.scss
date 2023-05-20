@@ -5,16 +5,13 @@ main{
         height: 1000px;
         background-size: cover;
         background-repeat: no-repeat;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        display: grid;
+        place-items: center;
         .square{
-            position: relative;
-            top: 45px;
-            left: 0;
             width: 700px;
             height: 700px;
+            text-align: center;
+            padding: 20px;
             background-color: rgba(135, 248, 103, 0.5);
             h3{
                 display: flex;

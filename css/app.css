@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&family=Raleway:wght@200&display=swap");
 @media (max-width: 576px) {
+  .row {
+    padding-left: 25px;
+  }
   .review-card {
     margin-bottom: 20px;
   }
@@ -28,11 +31,12 @@
   .btn-each {
     margin: 10px;
   }
-  .about-us #square {
-    width: 100%;
+  .about-us .square {
+    width: 100vw !important;
+    height: auto !important;
   }
-  .about-us #square p {
-    font-size: 18px;
+  .about-us .square p {
+    font-size: 18px !important;
     margin: 10px;
   }
   #map {
@@ -41,9 +45,6 @@
   }
   .form-contact {
     margin-left: 0;
-  }
-  .buy-container {
-    grid-template-columns: 1fr;
   }
 }
 header {
@@ -159,6 +160,7 @@ footer .footer-container .footer-contact div p {
 }
 footer .love-aby {
   color: #fff;
+  font-size: 10px;
 }
 
 main .about-us {
@@ -167,17 +169,14 @@ main .about-us {
   height: 1000px;
   background-size: cover;
   background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  place-items: center;
 }
 main .about-us .square {
-  position: relative;
-  top: 45px;
-  left: 0;
   width: 700px;
   height: 700px;
+  text-align: center;
+  padding: 20px;
   background-color: rgba(135, 248, 103, 0.5);
 }
 main .about-us .square h3 {
@@ -374,18 +373,18 @@ main .each-container .btn-each:hover {
 }
 
 main .buy-container {
-  display: grid;
-  align-items: center;
-  grid-template-columns: 1fr 1fr;
   margin: 0 auto;
-  gap: 20px;
   max-width: 1000px;
   padding-bottom: 100px;
 }
+main .buy-container .buy-text h3 {
+  padding-top: 100px;
+}
 main .buy-container .buy-img img {
-  width: 100%;
-  max-height: 100vh;
+  max-height: 80vh;
   object-fit: cover;
+  padding: 20px;
+  width: 100%;
 }
 main .buy-container .table {
   color: #fff;
