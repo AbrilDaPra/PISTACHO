@@ -1,7 +1,11 @@
 // Basics
 @import './basics/_colors.scss';
 @import './basics/mediaqueries.scss';
+@import './basics/mixins.scss';
 @import './basics/typography.scss';
+
+//Components
+@import './components/buttons.scss';
 
 //Layout
 @import './layout/header.scss';

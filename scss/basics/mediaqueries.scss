@@ -1,3 +1,11 @@
+@mixin mediaquery-mobile(){
+    @media (max-width: 576px){
+        @content;
+    }
+}
+
+
+
 @media (max-width: 576px){
     .row{
         padding-left: 25px;
