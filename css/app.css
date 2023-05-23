@@ -47,6 +47,40 @@
     margin: 10px;
   }
 }
+.button, .contact-button, .card-product-button, .banner-index-button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+}
+
+.banner-index-button {
+  background-color: #87f867;
+  color: #fff;
+  font-size: 20px;
+}
+.banner-index-button:hover {
+  background-color: #000;
+  color: #87f867;
+}
+
+.card-product-button {
+  background-color: #000;
+  border-color: #000;
+  color: #87f867;
+  text-decoration: none;
+}
+.card-product-button:hover {
+  background-color: #87f867;
+  color: #000;
+}
+
+.contact-button {
+  background-color: #87f867;
+  border: 0;
+}
+
 header {
   position: fixed;
   background-color: #000;
@@ -67,7 +101,7 @@ header .navbar .navbar-brand:hover {
 }
 header .navbar .navbar-toggler {
   color: #fff;
-  background-color: #78f867;
+  background-color: #87f867;
 }
 header .navbar .nav-link {
   color: white;
@@ -75,10 +109,10 @@ header .navbar .nav-link {
   padding: 10px;
 }
 header .navbar .nav-link:hover {
-  color: #78f867;
+  color: #87f867;
 }
 header .navbar .nav-link:focus {
-  color: #78f867;
+  color: #87f867;
 }
 header .navbar .dropdown-menu {
   background-color: #000;
@@ -110,9 +144,9 @@ body {
 }
 
 main .subtitles {
-  color: #78f867;
   font-size: 30px;
   padding: 20px;
+  color: #87f867;
 }
 main .white-text {
   color: #fff;
@@ -147,7 +181,7 @@ footer .footer-container .footer-contact div {
   display: flex;
 }
 footer .footer-container .footer-contact div #contactIcons {
-  color: #78f867;
+  color: #87f867;
 }
 footer .footer-container .footer-contact div p {
   margin-left: 8px;
@@ -194,9 +228,9 @@ main .about-us .square p {
 
 main .row h3 {
   padding: 100px 0px 15px 10px;
-  color: #78f867;
+  color: #87f867;
   font-size: 30px;
-  border-bottom: 1px solid #78f867;
+  border-bottom: 1px solid #87f867;
 }
 main .row .col {
   color: #fff;
@@ -229,41 +263,10 @@ main .row .col .shipping .form-select {
   width: 200px;
 }
 main .row .order-summary .btn-checkout {
-  background-color: #78f867;
-  border-color: #78f867;
+  background-color: #87f867;
+  border-color: #87f867;
   border-radius: 3px;
   padding: 3px;
-}
-main #cartList {
-  padding-top: 30px;
-  background-color: #000;
-}
-main #cartList .product-item {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
-}
-main #cartList .product-item img {
-  width: 100px;
-  margin-left: 20px;
-}
-main #cartList .product-item a {
-  text-decoration: none;
-}
-main #cartList .product-item a h3 {
-  font-size: 28px;
-  flex: 1;
-  padding: 0 10px;
-  color: #fff;
-}
-main #cartList .product-item h4 {
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  color: #fff;
-}
-main #subtotal {
-  font-size: 20px;
-  color: white;
 }
 
 main #contactBanner {
@@ -278,7 +281,7 @@ main #contactBanner {
   align-items: center;
 }
 main #contactBanner button {
-  background-color: #78f867;
+  background-color: #87f867;
   border: 0;
 }
 main #contactBanner button a {
@@ -298,7 +301,7 @@ main #contactContainer .form-contact {
   padding-left: 400px;
 }
 main #contactContainer .form-contact .form-label {
-  color: #78f867;
+  color: #87f867;
   margin: 10px 0px 10px 0px;
 }
 main #contactContainer .form-contact .form-label .form-control {
@@ -308,8 +311,8 @@ main #contactContainer .form-contact .form-control {
   width: 300px;
 }
 main #contactContainer .form-contact .form-check-input:checked {
-  background-color: #78f867;
-  border-color: #78f867;
+  background-color: #87f867;
+  border-color: #87f867;
 }
 main #contactContainer .form-contact .form-select {
   width: 130px;
@@ -317,10 +320,10 @@ main #contactContainer .form-contact .form-select {
   margin: 15px 0px 15px 0px;
 }
 main #contactContainer .form-contact .contact-button {
-  background-color: #78f867;
+  background-color: #87f867;
   color: #000;
   border-radius: 5px;
-  border-color: #78f867;
+  border-color: #87f867;
   padding: 5px;
 }
 main #contactContainer #map {
@@ -329,7 +332,7 @@ main #contactContainer #map {
   height: 300px;
 }
 main .suscribe {
-  background-color: #78f867;
+  background-color: #87f867;
   width: 100%;
   height: 600px;
   display: flex;
@@ -352,7 +355,7 @@ main .suscribe input {
 }
 main .suscribe .btn-submit {
   background-color: #000;
-  color: #78f867;
+  color: #87f867;
   border-color: #000;
   border-radius: 5px;
   font-size: 20px;
@@ -379,7 +382,7 @@ main .each-container .each {
 main .each-container .each h4 {
   font-size: 30px;
   margin-top: 0;
-  color: #78f867;
+  color: #87f867;
   padding: 10px;
 }
 main .each-container .each p {
@@ -395,8 +398,8 @@ main .each-container #goBackBtn {
   margin-bottom: 10px;
 }
 main .each-container .btn-each {
-  background-color: #78f867;
-  border-color: #78f867;
+  background-color: #87f867;
+  border-color: #87f867;
   border-radius: 10%;
   font-size: 20px;
   padding: 10px;
@@ -407,9 +410,9 @@ main .each-container .btn-each a {
   color: #000;
 }
 main .each-container .btn-each:hover {
-  background-color: #78f867;
+  background-color: #87f867;
   border: #fff;
-  color: #78f867;
+  color: #87f867;
 }
 
 main .buy-container {
@@ -433,8 +436,42 @@ main .buy-container .table {
   padding-left: 10px;
 }
 main .buy-container .table .green-text {
-  color: #78f867;
+  color: #87f867;
   text-transform: uppercase;
+}
+
+.button, .banner-index-button, .card-product-button, .contact-button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+}
+
+.banner-index-button {
+  background-color: #87f867;
+  color: #fff;
+  font-size: 20px;
+}
+.banner-index-button:hover {
+  background-color: #000;
+  color: #87f867;
+}
+
+.card-product-button {
+  background-color: #000;
+  border-color: #000;
+  color: #87f867;
+  text-decoration: none;
+}
+.card-product-button:hover {
+  background-color: #87f867;
+  color: #000;
+}
+
+.contact-button {
+  background-color: #87f867;
+  border: 0;
 }
 
 main #hero {
@@ -453,21 +490,12 @@ main #hero h2 {
   font-size: 90px;
   text-transform: uppercase;
   text-align: center;
+  transition: all 1s ease-out;
 }
-main #hero .btn-index {
-  color: #fff;
-  background-color: #78f867;
-  border-radius: 5px;
-  font-size: 20px;
-  text-transform: uppercase;
-  text-align: center;
-  margin: 20px 0px;
-  padding: 10px 20px;
-  text-decoration: none;
-}
-main #hero .btn-index:hover {
-  background-color: #000;
-  color: #78f867;
+main #hero h2 h2:hover {
+  transform: skewY(35deg);
+  color: #87f867;
+  transition: all 1s ease-out;
 }
 main .card {
   padding: 10px;
@@ -478,16 +506,6 @@ main .card .card-img-top {
   width: 100%;
   aspect-ratio: 1/1;
   object-fit: cover;
-}
-main .btn {
-  background-color: #000;
-  border-color: #000;
-  color: #78f867;
-}
-main .btn:hover {
-  background-color: #78f867;
-  border: #78f867;
-  color: #000;
 }
 main #banner {
   background-image: url(../images/banner2.jpg);
@@ -508,7 +526,7 @@ main #banner h2 {
 }
 main #banner a {
   color: #fff;
-  background-color: #78f867;
+  background-color: #87f867;
   border-radius: 5px;
   font-size: 20px;
   text-transform: uppercase;
@@ -536,7 +554,7 @@ main .reviews .review-card img {
 }
 main .reviews .review-card h4 {
   margin: 20px 15px 10px 15px;
-  color: #78f867;
+  color: #87f867;
   font-size: 20px;
 }
 main .reviews .review-card p {
@@ -547,7 +565,7 @@ main .reviews .review-card p {
 }
 main .reviews .review-card .review-hearts {
   margin-top: 10px;
-  color: #78f867;
+  color: #87f867;
 }
 main #instagramPhotos {
   display: flex;
@@ -556,7 +574,7 @@ main #instagramPhotos {
   flex-wrap: wrap;
   flex-direction: row;
   margin-top: 20px;
-  background-color: #78f867;
+  background-color: #87f867;
 }
 main #instagramPhotos #horizontal {
   display: flex;
@@ -575,7 +593,7 @@ main #instagramPhotos #horizontal .ig-pics img {
   object-fit: cover;
 }
 main .instagram {
-  color: #78f867;
+  color: #87f867;
   font-size: 20px;
   display: flex;
   justify-content: center;
@@ -594,7 +612,7 @@ main #bannerProducts {
   align-items: center;
 }
 main #bannerProducts h2 {
-  color: #78f867;
+  color: #87f867;
   font-size: 90px;
   text-transform: uppercase;
   text-align: center;
@@ -614,28 +632,28 @@ main #inputContainer {
 }
 main #inputContainer h2 {
   display: flex;
-  color: #78f867;
+  color: #87f867;
   padding-top: 200px;
   padding-bottom: 10px;
   font-size: 50px;
   justify-content: center;
 }
 main #inputContainer .form-label {
-  color: #78f867;
+  color: #87f867;
   font-size: 20px;
 }
 main #inputContainer .form-text {
   color: #fff;
 }
 main #inputContainer .form-check-input:checked {
-  background-color: #78f867;
-  border-color: #78f867;
+  background-color: #87f867;
+  border-color: #87f867;
 }
 main #inputContainer .form-check-label {
   color: #fff;
 }
 main #inputContainer .btn {
-  background-color: #78f867;
+  background-color: #87f867;
   color: #000;
   font-size: 18px;
   font-weight: bold;

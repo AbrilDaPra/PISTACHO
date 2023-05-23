@@ -4,23 +4,29 @@
     font-family: 'Pathway Gothic One', sans-serif;
     scroll-behavior: smooth;
 }
+
+@import '../basics/variables.scss';
+
 body{
     background-color: $secondary-color;
 }
 main{
-        .subtitles{
-            color: $primary-color;
-            font-size: 30px;
+    .subtitles{
+        @if $primary-color == #87f867{
+            font-size: $size-subtitle;
             padding: 20px;
-        }
-        .white-text{
-            color: $tertiary-color;
-            font-family: 'Raleway', sans-serif;
-            font-weight: bolder;
-            padding-left: 10px;
-        }
-        .white-color {
-            color: $tertiary-color;
-        }
+            color: $primary-color;
+        }@else{
+            font-size: $text-size;
+        } 
     }
-
+    .white-text{
+        color: $tertiary-color;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bolder;
+        padding-left: 10px;
+    }
+    .white-color {
+        color: $tertiary-color;
+    }
+}

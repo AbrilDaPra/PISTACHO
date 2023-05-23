@@ -1,3 +1,5 @@
+@import '../components/buttons.scss';
+
 main{
     #hero{
         background-image: url('../images/banner.jpg');
@@ -14,20 +16,11 @@ main{
             font-size: 90px;
             text-transform: uppercase;
             text-align: center; 
-        }
-        .btn-index{
-            color: $tertiary-color;
-            background-color: $primary-color;
-            border-radius: 5px;
-            font-size: 20px;
-            text-transform: uppercase;
-            text-align: center;
-            margin: 20px 0px;
-            padding: 10px 20px;
-            text-decoration: none;
-            &:hover{
-                background-color: $secondary-color;
+            transition:all 1s ease-out;
+            h2:hover{
+                transform: skewY(35deg);
                 color: $primary-color;
+                transition:all 1s ease-out;
             }
         }
     }
@@ -39,18 +32,7 @@ main{
             width: 100%;
             aspect-ratio: 1/1;
             object-fit: cover;
-        }
-        
-    }
-    .btn{
-        background-color: $secondary-color;
-        border-color: $secondary-color;
-        color: $primary-color;
-        &:hover{
-            background-color: $primary-color;
-            border: $primary-color;
-            color: $secondary-color;
-        }
+        }    
     }
     #banner{
         background-image: url(../images/banner2.jpg);
