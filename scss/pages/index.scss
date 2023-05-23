@@ -16,23 +16,30 @@ main{
             font-size: 90px;
             text-transform: uppercase;
             text-align: center; 
-            transition:all 1s ease-out;
-            h2:hover{
-                transform: skewY(35deg);
-                color: $primary-color;
-                transition:all 1s ease-out;
+            @include mediaquery-mobile(){
+                font-size: 60px;
             }
         }
+    }
+    #bannerTypography{
+        animation: changeTypography 2s infinite;
     }
     .card{
         padding: 10px;
         flex-basis: calc(25% - 40px);
         margin: 20px;
         .card-img-top{
-            width: 100%;
+            width: 250px;
             aspect-ratio: 1/1;
             object-fit: cover;
-        }    
+            height: 250px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .card-img-top:hover{
+            transform: scale(1.2);
+            position: relative;
+            z-index: 1;
+        }
     }
     #banner{
         background-image: url(../images/banner2.jpg);
@@ -46,7 +53,7 @@ main{
         align-items: center;
         h2{
             color: $secondary-color;
-            font-size: 90px;
+            font-size: 100px;
             text-transform: uppercase;
             text-align: center;
         }
@@ -102,22 +109,32 @@ main{
         flex-direction: row;
         margin-top: 20px;
         background-color: $primary-color;
-        #horizontal{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-wrap: wrap;
-            flex-direction: row;
-            .ig-pics{
-                flex-basis: calc(16.66% - 20px);
-                margin: 10px;
-                img{
-                    width: 200px;
-                    height: 200px;
-                    object-fit: cover;
-                }
+    }
+    #horizontal{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .ig-pics{
+        flex-basis: calc(16.66% - 20px);
+        margin: 10px;
+        overflow: hidden;
+        img{
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            margin: 5px;
+            transition: transform 0.3s ease-in-out;
+            @include mediaquery-mobile(){
+                flex-direction: column;
             }
-            
+        } 
+        img:hover{
+            transform: scale(1.2);
+            position: relative;
+            z-index: 1;
         }
     }
     .instagram {
@@ -128,4 +145,16 @@ main{
         align-items: center;
     } 
     
+}
+
+@keyframes changeTypography{
+    0%{
+        font-family: "Pathway Gothic One";
+    }
+    50%{
+        font-family: "Raleway";
+    }
+    100%{
+        font-family: "Pathway Gothic One";
+    }
 }

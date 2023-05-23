@@ -14,13 +14,6 @@
     display: flex;
     flex-direction: column;
   }
-  #contactContainer {
-    grid-template-columns: 1fr !important;
-  }
-  #contactContainer .form-contact {
-    padding: 10px;
-    padding: 10px 20px 10px 35px !important;
-  }
   .each-container {
     display: flex;
     flex-direction: column;
@@ -47,7 +40,7 @@
     margin: 10px;
   }
 }
-.button, .contact-button, .card-product-button, .banner-index-button {
+.button, .go-back, .contact-button, .card-product-button, .banner-index-button {
   padding: 10px 20px;
   border-radius: 5px;
   text-transform: uppercase;
@@ -79,6 +72,11 @@
 .contact-button {
   background-color: #87f867;
   border: 0;
+}
+
+.go-back {
+  background-color: #87f867;
+  color: #000;
 }
 
 header {
@@ -297,8 +295,19 @@ main #contactContainer {
   gap: 20px;
   padding-bottom: 100px;
 }
+@media (max-width: 576px) {
+  main #contactContainer {
+    grid-template-columns: 1fr !important;
+  }
+}
 main #contactContainer .form-contact {
   padding-left: 400px;
+}
+@media (max-width: 576px) {
+  main #contactContainer .form-contact {
+    padding: 10px;
+    padding: 10px 20px 10px 35px !important;
+  }
 }
 main #contactContainer .form-contact .form-label {
   color: #87f867;
@@ -440,7 +449,7 @@ main .buy-container .table .green-text {
   text-transform: uppercase;
 }
 
-.button, .banner-index-button, .card-product-button, .contact-button {
+.button, .banner-index-button, .card-product-button, .contact-button, .go-back {
   padding: 10px 20px;
   border-radius: 5px;
   text-transform: uppercase;
@@ -474,6 +483,11 @@ main .buy-container .table .green-text {
   border: 0;
 }
 
+.go-back {
+  background-color: #87f867;
+  color: #000;
+}
+
 main #hero {
   background-image: url("../images/banner.jpg");
   width: 100%;
@@ -490,12 +504,14 @@ main #hero h2 {
   font-size: 90px;
   text-transform: uppercase;
   text-align: center;
-  transition: all 1s ease-out;
 }
-main #hero h2 h2:hover {
-  transform: skewY(35deg);
-  color: #87f867;
-  transition: all 1s ease-out;
+@media (max-width: 576px) {
+  main #hero h2 {
+    font-size: 60px;
+  }
+}
+main #bannerTypography {
+  animation: changeTypography 2s infinite;
 }
 main .card {
   padding: 10px;
@@ -503,9 +519,16 @@ main .card {
   margin: 20px;
 }
 main .card .card-img-top {
-  width: 100%;
+  width: 250px;
   aspect-ratio: 1/1;
   object-fit: cover;
+  height: 250px;
+  transition: transform 0.3s ease-in-out;
+}
+main .card .card-img-top:hover {
+  transform: scale(1.2);
+  position: relative;
+  z-index: 1;
 }
 main #banner {
   background-image: url(../images/banner2.jpg);
@@ -520,7 +543,7 @@ main #banner {
 }
 main #banner h2 {
   color: #000;
-  font-size: 90px;
+  font-size: 100px;
   text-transform: uppercase;
   text-align: center;
 }
@@ -576,21 +599,34 @@ main #instagramPhotos {
   margin-top: 20px;
   background-color: #87f867;
 }
-main #instagramPhotos #horizontal {
+main #horizontal {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   flex-direction: row;
 }
-main #instagramPhotos #horizontal .ig-pics {
+main .ig-pics {
   flex-basis: calc(16.66% - 20px);
   margin: 10px;
+  overflow: hidden;
 }
-main #instagramPhotos #horizontal .ig-pics img {
+main .ig-pics img {
   width: 200px;
   height: 200px;
   object-fit: cover;
+  margin: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+@media (max-width: 576px) {
+  main .ig-pics img {
+    flex-direction: column;
+  }
+}
+main .ig-pics img:hover {
+  transform: scale(1.2);
+  position: relative;
+  z-index: 1;
 }
 main .instagram {
   color: #87f867;
@@ -600,6 +636,17 @@ main .instagram {
   align-items: center;
 }
 
+@keyframes changeTypography {
+  0% {
+    font-family: "Pathway Gothic One";
+  }
+  50% {
+    font-family: "Raleway";
+  }
+  100% {
+    font-family: "Pathway Gothic One";
+  }
+}
 main #bannerProducts {
   background-image: url(../images/banner3.jpg);
   width: 100%;
