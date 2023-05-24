@@ -129,16 +129,27 @@ header .navbar #signInUser {
   font-size: 25px;
   margin-top: 5px;
 }
+header .breadcrumb-item {
+  margin: 15px 0px 0px 15px;
+  position: relative;
+}
+header .breadcrumb-item a {
+  text-decoration: none;
+  color: #87f867;
+  font-size: 15px;
+}
+header .breadcrumb-item.active {
+  color: #87f867;
+}
+header .breadcrumb-item + .breadcrumb-item::before {
+  color: #fff;
+}
 
 * {
   margin: 0;
   padding: 0;
   font-family: "Pathway Gothic One", sans-serif;
   scroll-behavior: smooth;
-}
-
-body {
-  background-color: #000;
 }
 
 main .subtitles {
@@ -154,17 +165,6 @@ main .white-text {
 }
 main .white-color {
   color: #fff;
-}
-main .breadcrumb-item {
-  margin: 15px;
-}
-main .breadcrumb-item a {
-  text-decoration: none;
-  color: #87f867;
-  font-size: 15px;
-}
-main .active {
-  color: #87f867;
 }
 
 footer {
@@ -199,6 +199,10 @@ footer .footer-container .footer-contact div p {
 footer .love-aby {
   color: #fff;
   font-size: 10px;
+}
+
+body {
+  background-color: #000;
 }
 
 main .about-us {
@@ -411,11 +415,11 @@ main .each-container .each p {
   margin: 0;
   padding-right: 10px;
 }
-main .each-container #goBackBtn {
+main .each-container .go-back {
   display: flex;
   justify-content: start;
   font-size: 20px;
-  margin-bottom: 10px;
+  margin: 100px 0px 10px 10px;
 }
 main .each-container .btn-each {
   background-color: #87f867;

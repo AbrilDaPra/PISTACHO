@@ -1,17 +1,23 @@
-/* Error: Undefined variable.
- *    ,
- * 11 |     background-color: $secondary-color;
- *    |                       ^^^^^^^^^^^^^^^^
- *    '
- *   scss\layout\main.scss 11:23  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 11 \2502      background-color: $secondary-color;\d\a    \2502                        ^^^^^^^^^^^^^^^^\a    \2575 \a   scss\\layout\\main.scss 11:23  root stylesheet";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Pathway Gothic One", sans-serif;
+  scroll-behavior: smooth;
 }
+
+main .subtitles {
+  font-size: 30px;
+  padding: 20px;
+  color: #87f867;
+}
+main .white-text {
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-weight: bolder;
+  padding-left: 10px;
+}
+main .white-color {
+  color: #fff;
+}
+
+/*# sourceMappingURL=main.css.map */

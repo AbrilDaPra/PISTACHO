@@ -27,11 +27,11 @@ main{
                 padding-right: 10px; 
             }
         }
-        #goBackBtn{
+        .go-back{
             display: flex;
             justify-content: start;
             font-size: 20px;
-            margin-bottom: 10px;
+            margin: 100px 0px 10px 10px;
         }
         .btn-each{
             background-color: $primary-color;
