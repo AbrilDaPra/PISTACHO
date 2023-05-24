@@ -626,6 +626,11 @@ main .ig-pics {
   margin: 10px;
   overflow: hidden;
 }
+@media (max-width: 576px) {
+  main .ig-pics {
+    flex-direction: column;
+  }
+}
 main .ig-pics img {
   width: 200px;
   height: 200px;
@@ -633,12 +638,7 @@ main .ig-pics img {
   margin: 5px;
   transition: transform 0.3s ease-in-out;
 }
-@media (max-width: 576px) {
-  main .ig-pics img {
-    flex-direction: column;
-  }
-}
-main .ig-pics img:hover {
+main .ig-pics:hover {
   transform: scale(1.2);
   position: relative;
   z-index: 1;

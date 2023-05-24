@@ -1,4 +1,6 @@
 @import '../components/buttons.scss';
+@import '../basics/colors';
+@import '../basics/mixins.scss';
 
 main{
     #hero{
@@ -121,17 +123,17 @@ main{
         flex-basis: calc(16.66% - 20px);
         margin: 10px;
         overflow: hidden;
+        @include mediaquery-mobile (){
+            flex-direction: column;
+        }
         img{
             width: 200px;
             height: 200px;
             object-fit: cover;
             margin: 5px;
             transition: transform 0.3s ease-in-out;
-            @include mediaquery-mobile(){
-                flex-direction: column;
-            }
         } 
-        img:hover{
+        &:hover{
             transform: scale(1.2);
             position: relative;
             z-index: 1;
