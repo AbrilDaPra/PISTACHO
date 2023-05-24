@@ -155,6 +155,17 @@ main .white-text {
 main .white-color {
   color: #fff;
 }
+main .breadcrumb-item {
+  margin: 15px;
+}
+main .breadcrumb-item a {
+  text-decoration: none;
+  color: #87f867;
+  font-size: 15px;
+}
+main .active {
+  color: #87f867;
+}
 
 footer {
   background-color: #000;

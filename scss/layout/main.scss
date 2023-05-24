@@ -29,4 +29,15 @@ main{
     .white-color {
         color: $tertiary-color;
     }
+    .breadcrumb-item{
+        margin: 15px;
+        a{
+            text-decoration: none;
+            color: $primary-color;
+            font-size: 15px;
+        }
+    }
+    .active{
+        color: $primary-color;
+    }
 }
