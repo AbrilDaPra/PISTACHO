@@ -1,17 +1,53 @@
-/* Error: Undefined variable.
- *   ,
- * 5 |         background-color: $secondary-color;
- *   |                           ^^^^^^^^^^^^^^^^
- *   '
- *   scss\pages\each-product.scss 5:27  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a   \2577 \a 5 \2502          background-color: $secondary-color;\d\a   \2502                            ^^^^^^^^^^^^^^^^\a   \2575 \a   scss\\pages\\each-product.scss 5:27  root stylesheet";
+main .each-container {
+  width: 100%;
+  overflow: hidden;
+  background-color: #000;
+  padding-top: 100px;
 }
+main .each-container a {
+  text-decoration: none;
+}
+main .each-container img {
+  float: left;
+  margin-right: 10px;
+}
+main .each-container .each {
+  color: #fff;
+}
+main .each-container .each h4 {
+  font-size: 30px;
+  margin-top: 0;
+  color: #78f867;
+  padding: 10px;
+}
+main .each-container .each p {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  margin: 0;
+  padding-right: 10px;
+}
+main .each-container .go-back {
+  display: flex;
+  justify-content: start;
+  font-size: 20px;
+  margin: 100px 0px 10px 10px;
+}
+main .each-container .btn-each {
+  background-color: #78f867;
+  border-color: #78f867;
+  border-radius: 10%;
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+}
+main .each-container .btn-each a {
+  text-decoration: none;
+  color: #000;
+}
+main .each-container .btn-each:hover {
+  background-color: #78f867;
+  border: #fff;
+  color: #78f867;
+}
+
+/*# sourceMappingURL=each-product.css.map */

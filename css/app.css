@@ -99,7 +99,7 @@ header .navbar .navbar-brand:hover {
 }
 header .navbar .navbar-toggler {
   color: #fff;
-  background-color: #87f867;
+  background-color: #78f867;
 }
 header .navbar .nav-link {
   color: white;
@@ -107,10 +107,10 @@ header .navbar .nav-link {
   padding: 10px;
 }
 header .navbar .nav-link:hover {
-  color: #87f867;
+  color: #78f867;
 }
 header .navbar .nav-link:focus {
-  color: #87f867;
+  color: #78f867;
 }
 header .navbar .dropdown-menu {
   background-color: #000;
@@ -135,11 +135,11 @@ header .breadcrumb-item {
 }
 header .breadcrumb-item a {
   text-decoration: none;
-  color: #87f867;
+  color: #78f867;
   font-size: 15px;
 }
 header .breadcrumb-item.active {
-  color: #87f867;
+  color: #78f867;
 }
 header .breadcrumb-item + .breadcrumb-item::before {
   color: #fff;
@@ -241,9 +241,9 @@ main .about-us .square p {
 
 main .row h3 {
   padding: 100px 0px 15px 10px;
-  color: #87f867;
+  color: #78f867;
   font-size: 30px;
-  border-bottom: 1px solid #87f867;
+  border-bottom: 1px solid #78f867;
 }
 main .row .col {
   color: #fff;
@@ -276,8 +276,8 @@ main .row .col .shipping .form-select {
   width: 200px;
 }
 main .row .order-summary .btn-checkout {
-  background-color: #87f867;
-  border-color: #87f867;
+  background-color: #78f867;
+  border-color: #78f867;
   border-radius: 3px;
   padding: 3px;
 }
@@ -294,7 +294,7 @@ main #contactBanner {
   align-items: center;
 }
 main #contactBanner button {
-  background-color: #87f867;
+  background-color: #78f867;
   border: 0;
 }
 main #contactBanner button a {
@@ -325,7 +325,7 @@ main #contactContainer .form-contact {
   }
 }
 main #contactContainer .form-contact .form-label {
-  color: #87f867;
+  color: #78f867;
   margin: 10px 0px 10px 0px;
 }
 main #contactContainer .form-contact .form-label .form-control {
@@ -335,8 +335,8 @@ main #contactContainer .form-contact .form-control {
   width: 300px;
 }
 main #contactContainer .form-contact .form-check-input:checked {
-  background-color: #87f867;
-  border-color: #87f867;
+  background-color: #78f867;
+  border-color: #78f867;
 }
 main #contactContainer .form-contact .form-select {
   width: 130px;
@@ -344,10 +344,10 @@ main #contactContainer .form-contact .form-select {
   margin: 15px 0px 15px 0px;
 }
 main #contactContainer .form-contact .contact-button {
-  background-color: #87f867;
+  background-color: #78f867;
   color: #000;
   border-radius: 5px;
-  border-color: #87f867;
+  border-color: #78f867;
   padding: 5px;
 }
 main #contactContainer #map {
@@ -356,7 +356,7 @@ main #contactContainer #map {
   height: 300px;
 }
 main .suscribe {
-  background-color: #87f867;
+  background-color: #78f867;
   width: 100%;
   height: 600px;
   display: flex;
@@ -379,7 +379,7 @@ main .suscribe input {
 }
 main .suscribe .btn-submit {
   background-color: #000;
-  color: #87f867;
+  color: #78f867;
   border-color: #000;
   border-radius: 5px;
   font-size: 20px;
@@ -406,7 +406,7 @@ main .each-container .each {
 main .each-container .each h4 {
   font-size: 30px;
   margin-top: 0;
-  color: #87f867;
+  color: #78f867;
   padding: 10px;
 }
 main .each-container .each p {
@@ -422,8 +422,8 @@ main .each-container .go-back {
   margin: 100px 0px 10px 10px;
 }
 main .each-container .btn-each {
-  background-color: #87f867;
-  border-color: #87f867;
+  background-color: #78f867;
+  border-color: #78f867;
   border-radius: 10%;
   font-size: 20px;
   padding: 10px;
@@ -434,9 +434,9 @@ main .each-container .btn-each a {
   color: #000;
 }
 main .each-container .btn-each:hover {
-  background-color: #87f867;
+  background-color: #78f867;
   border: #fff;
-  color: #87f867;
+  color: #78f867;
 }
 
 main .buy-container {
@@ -460,7 +460,7 @@ main .buy-container .table {
   padding-left: 10px;
 }
 main .buy-container .table .green-text {
-  color: #87f867;
+  color: #78f867;
   text-transform: uppercase;
 }
 
@@ -473,33 +473,33 @@ main .buy-container .table .green-text {
 }
 
 .banner-index-button {
-  background-color: #87f867;
+  background-color: #78f867;
   color: #fff;
   font-size: 20px;
 }
 .banner-index-button:hover {
   background-color: #000;
-  color: #87f867;
+  color: #78f867;
 }
 
 .card-product-button {
   background-color: #000;
   border-color: #000;
-  color: #87f867;
+  color: #78f867;
   text-decoration: none;
 }
 .card-product-button:hover {
-  background-color: #87f867;
+  background-color: #78f867;
   color: #000;
 }
 
 .contact-button {
-  background-color: #87f867;
+  background-color: #78f867;
   border: 0;
 }
 
 .go-back {
-  background-color: #87f867;
+  background-color: #78f867;
   color: #000;
 }
 
@@ -564,7 +564,7 @@ main #banner h2 {
 }
 main #banner a {
   color: #fff;
-  background-color: #87f867;
+  background-color: #78f867;
   border-radius: 5px;
   font-size: 20px;
   text-transform: uppercase;
@@ -592,7 +592,7 @@ main .reviews .review-card img {
 }
 main .reviews .review-card h4 {
   margin: 20px 15px 10px 15px;
-  color: #87f867;
+  color: #78f867;
   font-size: 20px;
 }
 main .reviews .review-card p {
@@ -603,7 +603,7 @@ main .reviews .review-card p {
 }
 main .reviews .review-card .review-hearts {
   margin-top: 10px;
-  color: #87f867;
+  color: #78f867;
 }
 main #instagramPhotos {
   display: flex;
@@ -612,7 +612,7 @@ main #instagramPhotos {
   flex-wrap: wrap;
   flex-direction: row;
   margin-top: 20px;
-  background-color: #87f867;
+  background-color: #78f867;
 }
 main #horizontal {
   display: flex;
@@ -644,7 +644,7 @@ main .ig-pics img:hover {
   z-index: 1;
 }
 main .instagram {
-  color: #87f867;
+  color: #78f867;
   font-size: 20px;
   display: flex;
   justify-content: center;
@@ -674,7 +674,7 @@ main #bannerProducts {
   align-items: center;
 }
 main #bannerProducts h2 {
-  color: #87f867;
+  color: #78f867;
   font-size: 90px;
   text-transform: uppercase;
   text-align: center;
@@ -694,28 +694,28 @@ main #inputContainer {
 }
 main #inputContainer h2 {
   display: flex;
-  color: #87f867;
+  color: #78f867;
   padding-top: 200px;
   padding-bottom: 10px;
   font-size: 50px;
   justify-content: center;
 }
 main #inputContainer .form-label {
-  color: #87f867;
+  color: #78f867;
   font-size: 20px;
 }
 main #inputContainer .form-text {
   color: #fff;
 }
 main #inputContainer .form-check-input:checked {
-  background-color: #87f867;
-  border-color: #87f867;
+  background-color: #78f867;
+  border-color: #78f867;
 }
 main #inputContainer .form-check-label {
   color: #fff;
 }
 main #inputContainer .btn {
-  background-color: #87f867;
+  background-color: #78f867;
   color: #000;
   font-size: 18px;
   font-weight: bold;
