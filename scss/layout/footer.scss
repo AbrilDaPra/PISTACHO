@@ -4,32 +4,32 @@ footer{
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin: 0 auto;
-        .footer-menu{
-            ol{
-                list-style-type: none;
-                padding-top: 25px;
-                li{
-                    a{
-                        text-decoration: none;
-                        color: $tertiary-color;
-                    }
-                }
-            }
-        }
-        .footer-contact{
+    }
+    .footer-menu{
+        ol{
+            list-style-type: none;
             padding-top: 25px;
-            div{
-                display: flex;
-                #contactIcons{
-                    color: $primary-color;
-                }
-                p{
-                    margin-left: 8px;
-                    color: $tertiary-color;  
-                    margin-bottom: 1;
-                    padding-left: 0;
+            li{
+                a{
+                    text-decoration: none;
+                    color: $tertiary-color;
                 }
             }
         }
+    }
+    .footer-contact{
+        padding-top: 25px;
+        div{
+            display: flex;
+            p{
+                margin-left: 8px;
+                color: $tertiary-color;  
+                margin-bottom: 1;
+                padding-left: 0;
+            }
+        }
+    }
+    #contactIcons{
+        color: $primary-color;
     }
 }

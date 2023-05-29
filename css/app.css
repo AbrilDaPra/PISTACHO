@@ -184,28 +184,28 @@ footer .footer-container {
   grid-template-columns: 1fr 1fr;
   margin: 0 auto;
 }
-footer .footer-container .footer-menu ol {
+footer .footer-menu ol {
   list-style-type: none;
   padding-top: 25px;
 }
-footer .footer-container .footer-menu ol li a {
+footer .footer-menu ol li a {
   text-decoration: none;
   color: #fff;
 }
-footer .footer-container .footer-contact {
+footer .footer-contact {
   padding-top: 25px;
 }
-footer .footer-container .footer-contact div {
+footer .footer-contact div {
   display: flex;
 }
-footer .footer-container .footer-contact div #contactIcons {
-  color: #87f867;
-}
-footer .footer-container .footer-contact div p {
+footer .footer-contact div p {
   margin-left: 8px;
   color: #fff;
   margin-bottom: 1;
   padding-left: 0;
+}
+footer #contactIcons {
+  color: #87f867;
 }
 
 body {
