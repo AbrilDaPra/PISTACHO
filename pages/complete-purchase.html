@@ -72,67 +72,77 @@
       </header>
       <!-- MAIN -->
       <main>
-        <h3 class="subtitles">COMPLETE YOUR PURCHASE</h3>
-        <form class="white-text">
-          <h4 class="subtitles">Personal information</h4>
-          <input type="text" placeholder="Your name" required>
-          <input type="text" placeholder="Your lastname" required>
-          <input type="text" placeholder="Your e-mail" required>
-          <input type="text" placeholder="Your CP" required>
-          <h4 class="subtitles">Home delivery</h4>
-          <label for="">
-            <input type="radio" name="delivery" value="branch" required>
-            To the Correo Argentino branch closest to your address
-          </label>
-          <label for="">
-            <input type="radio" name="delivery" value="home">
-            At home
-          </label>
-          <h3>Recipient Address</h3>
-          <label for="">
-            <input type="text" placeholder="Street" required>
-          </label>
-          <label for="">
-            <input type="number" placeholder="Street number" required>
-          </label>
-          <label for="">
-            <input type="text" placeholder="Neighborhood" required>
-          </label>
-          <label for="">
-            <input type="text" placeholder="City" required>
-          </label>
-          <h4>Province</h4>
-          <select name="province" id="" required>
-            <option value="" disabled selected>Select</option>
-            <option value="">Buenos Aires</option>
-            <option value="">Capital Federal</option>
-            <option value="">Catamarca</option>
-            <option value="">Chaco</option>
-            <option value="">Chubut</option>
-            <option value="">Córdoba</option>
-            <option value="">Corrientes</option>
-            <option value="">Entre Ríos</option>
-            <option value="">Formosa</option>
-            <option value="">Jujuy</option>
-            <option value="">Mendoza</option>
-            <option value="">Misiones</option>
-            <option value="">Neuquén</option>
-            <option value="">Rio Negro</option>
-            <option value="">Salta</option>
-            <option value="">San Juan</option>
-            <option value="">San Luis</option>
-            <option value="">Santa Cruz</option>
-            <option value="">Santa Fe</option>
-            <option value="">Santiago del Estero</option>
-            <option value="">Tierra del Fuego</option>
-            <option value="">Tucumán</option>
-          </select>
-          <label for="">
-            <input type="text" placeholder="DNI" required>
-          </label>
-          <textarea name="" id="" cols="30" rows="10" placeholder="If you like, you can leave a comment in here"></textarea>
-          <input type="submit" value="CONTINUE">
-        </form>
+        <h3 class="subtitles purchase">COMPLETE YOUR PURCHASE</h3>
+        <div class="form-container">
+          <form class="white-text">
+            <h4 class="purchase-subtitles">PERSONAL INFORMATION</h4>
+            <div class="personal-information">
+              <input type="text" placeholder="Your name" required>
+              <input type="text" placeholder="Your lastname" required>
+              <input type="text" placeholder="Your e-mail" required>
+              <input type="text" placeholder="Your CP" required>
+            </div>
+            <h4 class="purchase-subtitles">HOME DELIVERY</h4>
+            <div class="home-delivery">
+              <label for="">
+                <input type="radio" name="delivery" value="branch" required>
+                To the Correo Argentino branch closest to your address
+              </label>
+              <label for="">
+                <input type="radio" name="delivery" value="home">
+                At home
+              </label>
+            </div>
+            <h4 class="purchase-subtitles">ADDRESS</h4>
+            <div class="address">
+              <label for="">
+                <input type="text" placeholder="Street" required>
+              </label>
+              <label for="">
+                <input type="number" placeholder="Street number" required>
+              </label>
+              <label for="">
+                <input type="text" placeholder="Neighborhood" required>
+              </label>
+              <label for="">
+                <input type="text" placeholder="City" required>
+              </label>
+              <div class="province">
+                <h5>Province</h5>
+                <select name="province" id="" required>
+                  <option value="" disabled selected>Select</option>
+                  <option value="">Buenos Aires</option>
+                  <option value="">Capital Federal</option>
+                  <option value="">Catamarca</option>
+                  <option value="">Chaco</option>
+                  <option value="">Chubut</option>
+                  <option value="">Córdoba</option>
+                  <option value="">Corrientes</option>
+                  <option value="">Entre Ríos</option>
+                  <option value="">Formosa</option>
+                  <option value="">Jujuy</option>
+                  <option value="">Mendoza</option>
+                  <option value="">Misiones</option>
+                  <option value="">Neuquén</option>
+                  <option value="">Rio Negro</option>
+                  <option value="">Salta</option>
+                  <option value="">San Juan</option>
+                  <option value="">San Luis</option>
+                  <option value="">Santa Cruz</option>
+                  <option value="">Santa Fe</option>
+                  <option value="">Santiago del Estero</option>
+                  <option value="">Tierra del Fuego</option>
+                  <option value="">Tucumán</option>
+                </select>
+                <label for="">
+                  <input type="text" placeholder="DNI" required>
+                </label>
+                <textarea name="" id="" cols="30" rows="10" placeholder="If you like, you can leave a comment in here" class="text-area"></textarea>
+                <button>CONTINUE</button>
+              </div>
+            </div>
+          </form>
+        </div>
       </main>
       <!-- FOOTER -->
       <footer>

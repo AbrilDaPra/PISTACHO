@@ -1,0 +1,65 @@
+main{
+    .purchase{
+        padding-top: 100px;
+        font-size: 40px;
+    }
+    .purchase-subtitles{
+        color: $tertiary-color;
+        font-size: 25px;
+        padding-top: 10px;
+    }
+    .form-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        form{
+            width: 400px;
+            height: 800px;
+            background-color: rgba(135, 248, 103, 0.5);
+        }
+    }
+    .personal-information{
+        padding: 10px 0px 0px 20px;
+        input{
+            display: block;
+            border-radius: 5px;
+            width: 300px;
+            margin-bottom: 10px;
+
+        }
+    }
+    .home-delivery{
+        padding: 10px 0px 0px 20px;
+        label{
+            display: block;
+            font-weight: lighter;
+            font-size: 18px;
+        }
+    }
+    .address{
+        padding: 10px 0px 0px 20px;
+        input{
+            display: block;
+            border-radius: 5px;
+            width: 300px !important;
+            margin-bottom: 10px;
+        }
+    }
+    .province{
+        input{
+            margin: 10px 0px 10px 0px;
+        }
+        button{
+            margin: 10px 0px 10px 0px;
+            background-color: $primary-color;
+            color: $secondary-color;
+            border-radius: 5px;
+            width: 200px;
+        }
+    }
+    .text-area{
+        width: 300px;
+        height: 100px;
+    }
+
+}

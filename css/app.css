@@ -322,6 +322,66 @@ main .btn-checkout {
   padding: 3px;
 }
 
+main .purchase {
+  padding-top: 100px;
+  font-size: 40px;
+}
+main .purchase-subtitles {
+  color: #fff;
+  font-size: 25px;
+  padding-top: 10px;
+}
+main .form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .form-container form {
+  width: 400px;
+  height: 800px;
+  background-color: rgba(135, 248, 103, 0.5);
+}
+main .personal-information {
+  padding: 10px 0px 0px 20px;
+}
+main .personal-information input {
+  display: block;
+  border-radius: 5px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+main .home-delivery {
+  padding: 10px 0px 0px 20px;
+}
+main .home-delivery label {
+  display: block;
+  font-weight: lighter;
+  font-size: 18px;
+}
+main .address {
+  padding: 10px 0px 0px 20px;
+}
+main .address input {
+  display: block;
+  border-radius: 5px;
+  width: 300px !important;
+  margin-bottom: 10px;
+}
+main .province input {
+  margin: 10px 0px 10px 0px;
+}
+main .province button {
+  margin: 10px 0px 10px 0px;
+  background-color: #78f867;
+  color: #000;
+  border-radius: 5px;
+  width: 200px;
+}
+main .text-area {
+  width: 300px;
+  height: 100px;
+}
+
 main #contactBanner {
   background-image: url(../images/contact-pic.jpg);
   width: 100%;
