@@ -72,91 +72,83 @@
       </header>
       <!-- MAIN -->
       <main>
+        <h3>SHOPPING CART</h3>
         <div class="container text-center">
           <div class="row">
-            <div class="col-md-6 col-sm-12">
-              <div class="container text-center">
-                <h3>SHOPPING CART</h3>
-                <div class="row">
-                  <div class="col">
-                    Product details
-                  </div>
-                  <div class="col">
-                    Quantity
-                  </div>
-                  <div class="col">
-                    Price
-                  </div>
-                  <div class="col">
-                    Total
-                  </div>
+            <div class="col-md-8 col-sm-6 col-xs-12">
+              <div class="row divider">
+                <div class="col-md-3 col">
+                  PRODUCTS
                 </div>
-                <div class="row">
-                  <div class="col">
-                    <a href="../pages/each-product/ginebra-violet.html">
-                      <img src="../images/bag-ginebra-violet.PNG" alt="ginebraviolet">
-                      <h4>GINEBRA violet</h4>
-                    </a>
-                  </div>
-                  <div class="col">
-                    <div class="quantity-products">
-                      <input type="number" name="contador" id="contador" placeholder="1">
-                    </div>
-                  </div>
-                  <div class="col">
-                    $7930
-                  </div>
-                  <div class="col">
-                    $7930
-                  </div>
+                <div class="col-md-3 col">
+                  PRICE
                 </div>
-                <div class="row">
-                  <div class="col">
-                    <a href="../each-product/catalina-red.html">
-                      <img src="../images/bag-catalina-red.PNG" alt="catalinared">
-                      <h4>CATALINA red</h4>
-                    </a>
-                  </div>
-                  <div class="col">
-                    <div class="quantity-products">
-                      <input type="number" name="contador" id="contador" placeholder="1">
-                    </div>
-                  </div>
-                  <div class="col">
-                    $10600
-                  </div>
-                  <div class="col">
-                    $10600
-                  </div>
+                <div class="col-md-3 col">
+                  QUANTITY
+                </div>
+                <div class="col-md-3 col">
+                  TOTAL
                 </div>
               </div>
-            </div>      
-            <div class="col-md-6 col-sm-12">
-              <div class="container text-center">
-                <h3>Order Summary</h3>
-                <div class="row">
-                  <div class="col order-summary">
-                    <p>ITEMS 3</p>
-                    <div class="shipping">
-                      <p>SHIPPING</p>
-                      <select class="form-select" aria-label="Default select example">
-                        <option selected disabled>Select</option>
-                        <option value="1">At home</option>
-                        <option value="2">Correo Argentino</option>
-                      </select>
-                    </div>
-                    <p>PROMO CODE</p>
-                    <input type="text" name="promo code" id="promoCode" placeholder="Your code">
-                    <button class="btn">APPLY</button>
-                    <p>TOTAL COST: $18530</p>
-                    <a href="./complete-purchase.html"><button class="btn-checkout">CHECKOUT</button></a>
+              <div class="row">
+                <div class="col-md-3 col">
+                  <img src="../images/bag-catalina-red.PNG" alt="Catalina red">
+                  <h4>Catalina red</h4>
+                </div>
+                <div class="col-md-3 col">
+                  $10.600
+                </div>
+                <div class="col-md-3 col">
+                  <div class="quantity-products">
+                    <input type="number" name="contador" id="contador" placeholder="1">
                   </div>
                 </div>
+                <div class="col-md-3 col">
+                  $10.600
+                </div>
               </div>
-            </div>           
+              <div class="row">
+                <div class="col-md-3 col">
+                  <img src="../images/bag-akira-pink.PNG" alt="Akira pink">
+                  <h4>Akira pink</h4>
+                </div>
+                <div class="col-md-3 col">
+                  $5800
+                </div>
+                <div class="col-md-3 col">
+                  <div class="quantity-products">
+                    <input type="number" name="contador" id="contador" placeholder="1">
+                  </div>
+                </div>
+                <div class="col-md-3 col">
+                  $5800
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 col order-square">
+              <h4>Order Summary</h4>
+              <div class="subtotal">
+                <p>Subtotal</p>
+                <p>$16.400</p>
+              </div>
+              <div class="shipping">
+                <p>Shipping</p>
+                <select class="form-select" aria-label="Default select example">
+                  <option selected disabled>Select</option>
+                  <option value="1">At home</option>
+                  <option value="2">Correo Argentino</option>
+                </select>
+              </div>
+              <a href="#">Add coupon code</a>
+              <div class="total">
+                <p>Total</p>
+                <p>$16.400</p>
+              </div>
+              <a href="./complete-purchase.html"><button class="btn-checkout">CHECKOUT</button></a>
+            </div>
           </div>
         </div>
-        <button class="btn">Continue shopping</button>
+        <button class="continue-shopping-button">Continue shopping</button>
       </main>
       <!-- FOOTER -->
       <footer>

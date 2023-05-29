@@ -1,51 +1,73 @@
 main{
-    .row{
-        h3{
-            padding: 100px 0px 15px 10px;
+    h3{
+        padding: 100px 0px 30px 10px;
+        color: $primary-color;
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+    }
+    .col{
+        color: $tertiary-color;
+        font-size: 20px;
+        @include mediaquery-mobile(){
+            font-size: 15px;
+        }
+        img{
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            @include mediaquery-mobile(){
+                width: 100px;
+                height: 100px;
+            }
+        }
+        h4{
+            padding-bottom: 20px;
+        }
+    }
+    .divider{
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+    .quantity-products{
+        display: flex;
+        justify-content: center;
+        input{
+        width: 40px;
+        }
+    }
+    .order-square{
+        margin: 20px;
+        width: 300px;
+        height: 400px;
+        background-color: rgba(135, 248, 103, 0.5);
+        padding: 20px;
+        h4{
+            color: $secondary-color;
+            border-bottom: 1px solid black;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+        a{
             color: $primary-color;
-            font-size: 30px;
-            border-bottom: 1px solid $primary-color;
+            text-decoration: none;
+            display: flex;
+            justify-content: start;
+            padding: 15px 0px 15px 0px;
         }
-        .col{
-            color: $tertiary-color;
-            font-size: 18px;
-            padding: 15px 0px 0px 10px;
-            a{
-                text-decoration: none;
-                color: $tertiary-color;
-                img{
-                    width: 200px;
-                    height: 200px;
-                    margin-right: 10px;
-                    object-fit: cover;
-                }
-                h4{
-                    display: flex;
-                    justify-content: start;
-                    padding-left: 55px;
-                }
-            }
-            .quantity-products{
-                display: flex;
-                justify-content: center;
-                input{
-                    width: 40px;
-                }
-            }
-            .shipping{
-                .form-select{
-                    width: 200px;
-                }
-            }      
-        }
-        .order-summary{
-            .btn-checkout{
-                background-color: $primary-color;
-                border-color: $primary-color;
-                border-radius: 3px;
-                padding: 3px;
-            }
-        }
-        
+   }
+   .subtotal, .shipping, .total{
+        display: flex;
+        justify-content: space-between;
+   }
+   .form-select{
+    width: 100px;
+   }
+   .btn-checkout{
+        background-color: $primary-color;
+        border-color: $primary-color;
+        border-radius: 3px;
+        padding: 3px;
     }
 }

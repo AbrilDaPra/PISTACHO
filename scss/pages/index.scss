@@ -118,14 +118,15 @@ main{
         align-items: center;
         flex-wrap: wrap;
         flex-direction: row;
+        @include mediaquery-mobile(){
+            flex-direction: column;
+            margin-right: 25px;
+        }
     }
     .ig-pics{
         flex-basis: calc(16.66% - 20px);
         margin: 10px;
         overflow: hidden;
-        @include mediaquery-mobile (){
-            flex-direction: column;
-        }
         img{
             width: 200px;
             height: 200px;
@@ -145,8 +146,14 @@ main{
         display: flex;
         justify-content: center;
         align-items: center;
-    } 
-    
+    }
+}
+
+footer{
+    .love-aby{
+        color: $primary-color;
+        font-size: 18px;
+    }
 }
 
 @keyframes changeTypography{

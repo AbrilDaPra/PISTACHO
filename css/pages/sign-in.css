@@ -1,17 +1,38 @@
-/* Error: Undefined variable.
- *    ,
- * 10 |             color: $primary-color;
- *    |                    ^^^^^^^^^^^^^^
- *    '
- *   scss\pages\sign-in.scss 10:20  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 10 \2502              color: $primary-color;\d\a    \2502                     ^^^^^^^^^^^^^^\a    \2575 \a   scss\\pages\\sign-in.scss 10:20  root stylesheet";
+main #inputContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
+main #inputContainer h2 {
+  display: flex;
+  color: #78f867;
+  padding-top: 200px;
+  padding-bottom: 10px;
+  font-size: 50px;
+  justify-content: center;
+}
+main #inputContainer .form-label {
+  color: #78f867;
+  font-size: 20px;
+}
+main #inputContainer .form-text {
+  color: #fff;
+}
+main #inputContainer .form-check-input:checked {
+  background-color: #78f867;
+  border-color: #78f867;
+}
+main #inputContainer .form-check-label {
+  color: #fff;
+}
+main #inputContainer .btn {
+  background-color: #78f867;
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+  border-color: #78f867;
+}
+
+/*# sourceMappingURL=sign-in.css.map */
