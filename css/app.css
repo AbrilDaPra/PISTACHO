@@ -127,6 +127,11 @@ header .navbar .dropdown-menu {
 }
 header .navbar .dropdown-menu .dropdown-item {
   color: #fff;
+  font-size: 18px;
+}
+header .navbar .dropdown-menu .dropdown-item:hover {
+  background-color: #78f867;
+  color: #000;
 }
 header .navbar #cartHeart {
   width: 80px;
@@ -135,8 +140,14 @@ header .navbar #cartHeart {
 header .navbar #signInUser {
   text-decoration: none;
   color: #fff;
-  font-size: 25px;
+  font-size: 27px;
   margin-top: 5px;
+}
+@media (max-width: 576px) {
+  header .navbar #signInUser {
+    padding-left: 10px;
+    padding-top: 20px;
+  }
 }
 header .breadcrumb-item {
   margin: 15px 0px 0px 15px;
@@ -178,22 +189,27 @@ main .white-color {
 
 footer {
   background-color: #000;
+  margin-top: 10px;
 }
 footer .footer-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+footer .footer-menu {
+  margin-right: 25px;
 }
 footer .footer-menu ol {
   list-style-type: none;
-  padding-top: 25px;
 }
 footer .footer-menu ol li a {
   text-decoration: none;
   color: #fff;
 }
 footer .footer-contact {
-  padding-top: 25px;
+  margin-left: 25px;
 }
 footer .footer-contact div {
   display: flex;
@@ -226,7 +242,7 @@ main .about-us .square {
   height: 700px;
   text-align: center;
   padding: 20px;
-  background-color: rgba(135, 248, 103, 0.5);
+  background-color: rgba(135, 248, 103, 0.8);
 }
 main .about-us .square h3 {
   display: flex;
@@ -247,7 +263,7 @@ main .about-us .square p {
 }
 
 main h3 {
-  padding: 100px 0px 30px 10px;
+  padding: 20px 0px 30px 10px;
   color: #78f867;
   font-size: 40px;
   display: flex;
@@ -403,12 +419,13 @@ main #contactBanner button a {
   text-decoration: none;
 }
 main #contactContainer {
-  display: grid;
+  display: flex;
   align-items: center;
   grid-template-columns: 1fr 1fr;
   margin: 0 auto;
   gap: 20px;
   padding-bottom: 100px;
+  justify-content: center;
 }
 @media (max-width: 576px) {
   main #contactContainer {
@@ -416,7 +433,7 @@ main #contactContainer {
   }
 }
 main #contactContainer .form-contact {
-  padding-left: 400px;
+  padding: 0px 35px;
 }
 @media (max-width: 576px) {
   main #contactContainer .form-contact {
@@ -454,6 +471,7 @@ main #contactContainer #map {
   display: flex;
   justify-content: center;
   height: 300px;
+  padding: 0px 35px;
 }
 main .suscribe {
   background-color: #78f867;
@@ -545,7 +563,20 @@ main .buy-container {
   padding-bottom: 100px;
 }
 main .buy-container .buy-text h3 {
-  padding-top: 100px;
+  padding-top: 150px;
+}
+@media (max-width: 576px) {
+  main .buy-container .buy-text h3 {
+    padding-top: 70px;
+  }
+}
+main .buy-container .buy-text p {
+  text-align: justify;
+}
+main .buy-container .buy-text p a {
+  color: #78f867;
+  text-decoration: none;
+  font-weight: 100;
 }
 main .buy-container .buy-img img {
   max-height: 80vh;
@@ -633,6 +664,9 @@ main #hero h2 {
 @media (max-width: 576px) {
   main #hero h2 {
     font-size: 60px;
+    min-height: 288px;
+    display: flex;
+    align-items: center;
   }
 }
 main #bannerTypography {

@@ -20,6 +20,9 @@ main{
             text-align: center; 
             @include mediaquery-mobile(){
                 font-size: 60px;
+                min-height: 288px;
+                display: flex;
+                align-items: center;
             }
         }
     }

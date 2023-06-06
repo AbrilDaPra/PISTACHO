@@ -1,14 +1,17 @@
 footer{
     background-color: $secondary-color;
+    margin-top: 10px;
     .footer-container{
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin: 0 auto;
+        display: flex;
+        justify-content: center;
     }
     .footer-menu{
+        margin-right: 25px;
         ol{
             list-style-type: none;
-            padding-top: 25px;
             li{
                 a{
                     text-decoration: none;
@@ -18,7 +21,7 @@ footer{
         }
     }
     .footer-contact{
-        padding-top: 25px;
+        margin-left: 25px;
         div{
             display: flex;
             p{

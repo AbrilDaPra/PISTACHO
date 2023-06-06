@@ -36,6 +36,11 @@ header {
             border-radius: 0%;
             .dropdown-item {
                 color: $tertiary-color;
+                font-size: 18px;
+                &:hover{
+                    background-color: $primary-color;
+                    color: $secondary-color;
+                }
             }
             
         }
@@ -46,8 +51,12 @@ header {
         #signInUser{
             text-decoration: none;
             color: $tertiary-color;
-            font-size: 25px;
+            font-size: 27px;
             margin-top: 5px;
+            @include mediaquery-mobile(){
+                padding-left: 10px;
+                padding-top: 20px;
+            }
         }
     }
     .breadcrumb-item{

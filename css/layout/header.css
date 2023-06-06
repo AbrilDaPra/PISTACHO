@@ -1,67 +1,19 @@
-header {
-  position: fixed;
-  background-color: #000;
-  width: 100%;
-  z-index: 1;
-}
-header .navbar {
-  position: relative;
-  z-index: 2;
-}
-header .navbar .navbar-brand {
-  color: #fff;
-  font-size: 30px;
-  padding-right: 50px;
-}
-header .navbar .navbar-brand:hover {
-  color: #fff;
-}
-header .navbar .navbar-toggler {
-  color: #fff;
-  background-color: #78f867;
-}
-header .navbar .nav-link {
-  color: white;
-  font-size: 24px;
-  padding: 10px;
-}
-header .navbar .nav-link:hover {
-  color: #78f867;
-}
-header .navbar .nav-link:focus {
-  color: #78f867;
-}
-header .navbar .dropdown-menu {
-  background-color: #000;
-  border-radius: 0%;
-}
-header .navbar .dropdown-menu .dropdown-item {
-  color: #fff;
-}
-header .navbar #cartHeart {
-  width: 80px;
-  padding: 20px;
-}
-header .navbar #signInUser {
-  text-decoration: none;
-  color: #fff;
-  font-size: 25px;
-  margin-top: 5px;
-}
-header .breadcrumb-item {
-  margin: 15px 0px 0px 15px;
-  position: relative;
-}
-header .breadcrumb-item a {
-  text-decoration: none;
-  color: #78f867;
-  font-size: 15px;
-}
-header .breadcrumb-item.active {
-  color: #78f867;
-}
-header .breadcrumb-item + .breadcrumb-item::before {
-  color: #fff;
-}
+/* Error: Undefined mixin.
+ *    ,
+ * 56 | /             @include mediaquery-mobile(){
+ * 57 | |                 padding-left: 10px;
+ * 58 | |                 padding-top: 20px;
+ * 59 | \             }
+ *    '
+ *   scss\layout\header.scss 56:13  root stylesheet */
 
-/*# sourceMappingURL=header.css.map */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined mixin.\a    \2577 \a 56 \2502  \250c              @include mediaquery-mobile(){\a 57 \2502  \2502                  padding-left: 10px;\a 58 \2502  \2502                  padding-top: 20px;\a 59 \2502  \2514              }\a    \2575 \a   scss\\layout\\header.scss 56:13  root stylesheet";
+}

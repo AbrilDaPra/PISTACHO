@@ -7,7 +7,18 @@ main{
         padding-bottom: 100px;
         .buy-text{
             h3{
-                padding-top: 100px;
+                padding-top: 150px;
+                @include mediaquery-mobile(){
+                    padding-top: 70px;
+                }
+            }
+            p{
+                text-align: justify;
+                a{
+                    color: $primary-color;
+                    text-decoration: none;
+                    font-weight: 100;
+                }
             }
         }
         .buy-img{
