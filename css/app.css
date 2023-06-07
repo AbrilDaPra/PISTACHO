@@ -421,16 +421,11 @@ main #contactBanner button a {
 main #contactContainer {
   display: flex;
   align-items: center;
-  grid-template-columns: 1fr 1fr;
+  flex-wrap: wrap;
   margin: 0 auto;
   gap: 20px;
   padding-bottom: 100px;
   justify-content: center;
-}
-@media (max-width: 576px) {
-  main #contactContainer {
-    grid-template-columns: 1fr !important;
-  }
 }
 main #contactContainer .form-contact {
   padding: 0px 35px;
